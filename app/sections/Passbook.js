@@ -47,22 +47,22 @@ export class Passbook extends React.Component {
                     {/* Hard coded the transactions display */}
                     {/* Here we should get the transaction details(image,description, amount) from the database using fetch api's get method. Display details using map method */}
                     <View style={styles.transaction1}>
-                        <Image style={styles.image} source={require('../images/avatar.png')} />
+                        <Image style={styles.image} source={require('../../assets/avatar.png')} />
                         <Text>Received from Himanshu</Text>
                         <Text>1000</Text>
                     </View>
                     <View style={styles.transaction1}>
-                        <Image style={styles.image} source={require('../images/avatar.png')} />
+                        <Image style={styles.image} source={require('../../assets/avatar.png')} />
                         <Text>Sent to xyz</Text>
                         <Text>2000</Text>
                     </View>
                     <View style={styles.transaction1}>
-                        <Image style={styles.image} source={require('../images/avatar.png')} />
+                        <Image style={styles.image} source={require('../../assets/avatar.png')} />
                         <Text>Sent to xyz</Text>
                         <Text>2000</Text>
                     </View>
                     <View style={styles.transaction1}>
-                        <Image style={styles.image} source={require('../images/avatar.png')} />
+                        <Image style={styles.image} source={require('../../assets/avatar.png')} />
                         <Text>Sent to xyz</Text>
                         <Text>2000</Text>
                     </View>

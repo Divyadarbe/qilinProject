@@ -12,17 +12,20 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={Home} options={{
-          title: 'Home', headerStyle: {
-            backgroundColor: 'orange',
-          },
-          headerTitleStyle: {
-            fontWeight: 'bold',
-            color: 'white'
-          },
-        }} />
+        <Stack.Screen name="Home" component={Home}
+          options={{
+            title: 'Home',
+            headerStyle: {
+              backgroundColor: 'orange',
+            },
+            headerTitleStyle: {
+              fontWeight: 'bold',
+              color: 'white'
+            },
+          }} />
         <Stack.Screen name="Passbook" component={Passbook} options={{
-          title: 'Passbook', headerStyle: {
+          title: 'Passbook',
+          headerStyle: {
             backgroundColor: 'orange',
           },
           headerTitleStyle: {
@@ -35,11 +38,3 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
